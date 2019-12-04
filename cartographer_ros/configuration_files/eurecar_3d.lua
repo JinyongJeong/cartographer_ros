@@ -55,6 +55,8 @@ POSE_GRAPH.optimization_problem.ceres_solver_options.max_num_iterations = 10
 POSE_GRAPH.constraint_builder.min_score = 0.62
 POSE_GRAPH.constraint_builder.global_localization_min_score = 0.66
 POSE_GRAPH.constraint_builder.ceres_scan_matcher_3d.only_optimize_yaw = false
+
+
 --POSE_GRAPH.optimization_problem.local_slam_pose_translation_weight = 0.1
 --POSE_GRAPH.optimization_problem.local_slam_pose_rotation_weight = 0.0001
 --POSE_GRAPH.optimization_problem.odometry_translation_weight = 0.1

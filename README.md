@@ -15,3 +15,9 @@ cd ..
 catkin_make_isolated --install --use-ninja
 
 ```
+
+# save map
+```
+rosservice call /finish_trajectory 0
+rosservice call /write_state "{filename: '/home/irap/catkin_ws_eurecar_carto/src/cartographer_ros/cartographer_ros/map/test.pbstream'}"
+```

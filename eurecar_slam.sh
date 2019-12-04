@@ -1,1 +1,1 @@
-roslaunch cartographer_ros demo_eurecar_3d.launch
+roslaunch cartographer_ros demo_eurecar_2d.launch

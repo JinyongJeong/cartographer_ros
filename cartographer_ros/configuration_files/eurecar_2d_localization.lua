@@ -15,6 +15,12 @@
 include "eurecar_2d.lua"
 
 TRAJECTORY_BUILDER.pure_localization = true
-POSE_GRAPH.optimize_every_n_nodes = 20
+POSE_GRAPH.optimize_every_n_nodes = 1
+
+TRAJECTORY_BUILDER_2D.ceres_scan_matcher.ceres_solver_options.num_threads = 4
+TRAJECTORY_BUILDER_2D.use_online_correlative_scan_matching = false
+POSE_GRAPH.constraint_builder.sampling_ratio = 0.3
+POSE_GRAPH.constraint_builder.max_constraint_distance = 15
+
 
 return options
