@@ -1,6 +1,11 @@
 # eurecar_cartographer
 
 # build
+```
+sudo apt-get update
+sudo apt-get install -y python-wstool python-rosdep ninja-build
+```
+
 
 ```
 mkdir catkin_ws
